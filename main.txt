@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Be My Valentine 💖</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: white;
+      margin-bottom: 40px;
+      text-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .buttons {
+      display: flex;
+      gap: 20px;
+    }
+
+    button {
+      padding: 15px 35px;
+      font-size: 20px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .yes-button {
+      background-color: #ff4d6d;
+      color: white;
+      font-weight: bold;
+    }
+
+    .no-button {
+      background-color: white;
+      color: #ff4d6d;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Will you be my Valentine? 💌</h1>
+
+  <div class="buttons">
+    <button class="yes-button" onclick="handleYesClick()">Yes 💖</button>
+    <button class="no-button" onclick="handleNoClick()">No 🙃</button>
+  </div>
+
+  <script>
+    let messageIndex = 0;
+
+    const messages = [
+      "Are you sure? 😳",
+      "Think again 💭",
+      "My heart is fragile 💔",
+      "This feels illegal 😭",
+      "You know the answer 😏",
+      "Okay stop playing 😅"
+    ];
+
+    function handleNoClick() {
+      const noButton = document.querySelector('.no-button');
+      const yesButton = document.querySelector('.yes-button');
+
+      noButton.textContent = messages[messageIndex];
+      messageIndex = (messageIndex + 1) % messages.length;
+
+      const currentSize = parseFloat(
+        window.getComputedStyle(yesButton).fontSize
+      );
+      yesButton.style.fontSize = `${currentSize * 1.4}px`;
+    }
+
+    function handleYesClick() {
+      window.location.href = "yes_page.html";
+    }
+  </script>
+
+</body>
+</html>
