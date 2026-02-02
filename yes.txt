@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>YAY 💘</title>
+  <title>YAYYYY ILYSM BBY LESS GOOO 💘</title>
   <style>
     body {
       margin: 0;
@@ -29,9 +29,10 @@
 <body>
 
   <div>
-    <h1>YAY!!! 💖🥰</h1>
-    <p>You just made my Valentine’s Day perfect 💌</p>
+    <h1>UR THE PRETTIEST AND BEST EVER 💖</h1>
+    <p>UR SO FREAKING CUTEE YAYAYYAYA I SERIOUSLY LYSM JAAN </p>
   </div>
 
 </body>
 </html>
+
