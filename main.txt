@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Be My Valentine 💖</title>
+  <title>Be My Valentine zainab 💖</title>
   <style>
     body {
       margin: 0;
@@ -56,19 +56,19 @@
 
   <div class="buttons">
     <button class="yes-button" onclick="handleYesClick()">Yes 💖</button>
-    <button class="no-button" onclick="handleNoClick()">No 🙃</button>
+    <button class="no-button" onclick="handleNoClick()">No :[ </button>
   </div>
 
   <script>
     let messageIndex = 0;
 
     const messages = [
-      "Are you sure? 😳",
-      "Think again 💭",
-      "My heart is fragile 💔",
-      "This feels illegal 😭",
-      "You know the answer 😏",
-      "Okay stop playing 😅"
+      "Are you sure? :( ",
+      "phir sochloo 💭",
+      "AIK BAR PHIR JAAN 💔",
+      "BHAI DO U NOT LOVE ME 😭",
+      "HAW HAYE ni krna phir?",
+      "Dekh lo ab PWEASEEE MY QUEEN I BEG UUU"
     ];
 
     function handleNoClick() {
@@ -91,3 +91,4 @@
 
 </body>
 </html>
+
